@@ -1,0 +1,47 @@
+<div class="title-container">
+    <h1>¡Bienvenido a ExpressVet!</h1>
+    <h3>Donde tu mascota es nuestra prioridad</h3>
+    <div class="title-icons">
+        <img src="../../../assets/clipboard2-pulse-fill.svg" alt="">
+        <img src="../../../assets/paw-solid.svg" alt="">
+    </div>
+</div>
+
+<div class="form-container mt-5">
+    <div class="text-container">
+        <span>Para poder atenderte a ti y a tu mascota como se lo merecen, te pedimos que diligencies este pequeño formulario para agendar tu cita</span>
+    </div>
+    <form class="row g-3">
+        <div class="col-md-4 offset-2">
+          <label for="inputName" class="form-label">Nombre completo</label>
+          <input type="text" class="form-control" id="inputName">
+        </div>
+        <div class="col-md-4">
+          <label for="inputDni" class="form-label">Documento de identidad</label>
+          <input type="number" class="form-control" id="inputDni">
+        </div>
+        <div class="col-md-4 offset-4">
+          <label for="inputPet" class="form-label">Nombre de tu mascota</label>
+          <input type="text" class="form-control" id="inputPet">
+        </div>
+        <div class="col-md-4 offset-4">
+          <label for="inputDate" class="form-label">fecha de la cita</label>
+          <input type="datetime-local" class="form-control" id="inputDate">
+        </div>
+        <div class="col-md-4 offset-4">
+          <label for="inputType" class="form-label">Tipo de consulta</label>
+          <select id="inputType" class="form-select">
+            <option selected>Chequeo</option>
+            <option>Desparasitación y vacunación</option>
+            <option>Urgencias</option>
+          </select>
+        </div>
+        <div class="mb-3 col-md-8 offset-2">
+            <label for="DescriptionTextarea" class="form-label">Descripción de la consulta</label>
+            <textarea class="form-control" id="DescriptionTextarea" placeholder="Brevemente dinos el motivo de la consulta" rows="3"></textarea>
+          </div>
+        <div class="button-container col-12">
+          <button type="submit" class="btn btn-primary">Agendar</button>
+        </div>
+    </form>
+</div>

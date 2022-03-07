@@ -1,0 +1,43 @@
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: darkblue;
+}
+.title-icons > img{
+    height: 30px;
+}
+
+.form-container{
+    background-color: rgb(173, 216, 230, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30%;
+    padding: 15px;
+    border-radius: 25px;
+    width: 40%;
+}
+
+.text-container{
+    margin: 10px;
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+form{
+    margin-top: 25px;
+}
+
+label{
+    color: darkblue;
+    font-size: 20px;
+}
+button{
+    margin-left: 25%;
+}

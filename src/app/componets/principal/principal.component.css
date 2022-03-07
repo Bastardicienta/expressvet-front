@@ -1,0 +1,66 @@
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: darkblue;
+}
+.title-icons > img{
+    height: 30px;
+}
+
+#carouselExampleCaptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 600px;
+}
+
+#carousel{
+    color: rgb(15, 15, 230);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.button-container{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.access-button{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(160, 160, 252);
+    padding: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 25%;
+}
+
+.access-button:hover{
+    background-color: rgb(15, 15, 95);
+    cursor: pointer;
+}
+
+.access-button:active{
+    background-color: rgb(2, 2, 24);
+}
+
+.access-button > h4{
+    color: blue;
+    font-weight: bolder;
+}
+
+.access-button > img{
+    align-self: center;
+    margin-top: 20px;
+    height: 170px;
+}
